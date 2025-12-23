@@ -1,0 +1,34 @@
+# Downloaded podcast files
+data/podcasts/*.mp3
+data/podcasts/*.m4a
+data/library.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Local config overrides (if you want to keep personal config private)
+config.local.json

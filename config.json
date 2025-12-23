@@ -1,0 +1,42 @@
+{
+  "app": {
+    "name": "PodPlay",
+    "title": "Podcast Player - Modern & Minimal",
+    "port": 8080,
+    "downloadsFolder": "data/podcasts"
+  },
+  "ui": {
+    "defaultTheme": "light",
+    "quickAddFeeds": [
+      {
+        "name": "The Daily",
+        "url": "https://feeds.simplecast.com/54nAGcIl"
+      },
+      {
+        "name": "Stuff You Should Know",
+        "url": "https://feeds.megaphone.fm/stuffyoushouldknow"
+      },
+      {
+        "name": "The Changelog",
+        "url": "https://changelog.com/podcast/feed"
+      }
+    ]
+  },
+  "playback": {
+    "defaultSpeed": 1.0,
+    "availableSpeeds": [0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0],
+    "skipBackSeconds": 15,
+    "skipForwardSeconds": 15,
+    "autoPlayNext": true,
+    "rememberPosition": true
+  },
+  "storage": {
+    "type": "indexedDB",
+    "dbName": "PodcastPlayerDB",
+    "dbVersion": 1
+  },
+  "server": {
+    "enableCORS": true,
+    "timeout": 300
+  }
+}
